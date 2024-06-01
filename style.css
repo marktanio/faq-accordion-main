@@ -15,3 +15,62 @@
     font-size: 16px;
 }
 
+body{
+    background-color: var(--lightPink);
+}
+
+.background-image {
+    z-index: -1;
+    position: relative;
+}
+
+.background {
+    width:1920px;
+    max-height: 320px;
+    position: relative;
+}
+
+.acc-container {
+    margin:0 auto;
+    max-width:700px;
+    width:100%;
+    top:-200px;
+    position: relative;
+}
+
+.accordion-box{
+    display:flex;
+    flex-direction: column;
+    background:var(--white);
+    padding:50px;
+    border-radius: 20px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 70px;
+    color: var(--darkPurple);
+}
+
+/*added these styles to remove default styling*/
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    text-align: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+.accordion{
+    display:flex;
+    flex-direction: column;
+}
+
