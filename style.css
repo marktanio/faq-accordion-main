@@ -50,6 +50,7 @@ body{
     color: var(--grayishPurple);
     line-height: 1.5;
     margin:5px 0 20px 0;
+    display: none;
 }
 
 .title{
@@ -73,6 +74,7 @@ button {
     text-align: inherit;
     cursor: pointer;
     outline: none;
+    width: 100%;
 }
 
 .accordion{
@@ -80,18 +82,26 @@ button {
     flex-direction: column;
 }
 
-.accordion-section{
+.accordion-section {
     margin:10px;
-    border-bottom: 1px solid var(--grayishPurple);
+    border-bottom: 1px solid var(--lightPink);
 }
 
-.accordion-header{
+.accordion-header {
     display:flex;
     justify-content: space-between;
-    margin:5px;
+    margin-block:5px;
 }
 
-h6{
+h6 {
     font-size: 20px;
+    color: var(--darkPurple);
 }
 
+.minus{
+    display: none;
+}
+
+.icons {
+    margin-left: auto;
+}
